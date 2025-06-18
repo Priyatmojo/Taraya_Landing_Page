@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taraya Koffie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #004aad;
+      color: #ffffff;
+    }
+
+    header {
+      background: url('https://i.imgur.com/YOUR_HEADER_IMAGE.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .about, .menu {
+      margin-bottom: 4rem;
+    }
+
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .menu-item {
+      background: #fff;
+      color: #2e2b27;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .info-duo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .info-box {
+      flex: 1 1 300px;
+      background-color: #003c8f;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .info-box a {
+      display: inline-block;
+      margin: 1rem 0;
+      padding: 0.8rem 1.5rem;
+      background-color: #814c2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #2e2b27;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Taraya Koffie</h1>
+    <p>BREWED FOR THE GO WHEREVER YOU FLOW</p>
+  </header>
+
+  <section class="about">
+    <h2>Tentang Kami</h2>
+    <p>Selamat datang di dunia rasa yang tak terlupakan! ☕️✨.</p>
+    <p>Kami dengan bangga memperkenalkan kopi pilihan yang tidak hanya memanjakan lidah, tetapi juga memberikan cerita di setiap tegukan. 
+      Temui kopi kami yang penuh kualitas, penuh rasa, dan penuh semangat.</p>
+  </section>
+
+  <section class="menu">
+    <h2>Menu Unggulan</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="gambar/1.png" alt="Es Susu">
+        <h3>Es Susu</h3>
+        <p>Susu dicampur dengan berbagai rasa</p>
+      </div>
+      <div class="menu-item">
+        <img src="gambar/2.png" alt="Es Kopi Susu">
+        <h3>Es Kopi Susu</h3>
+        <p>Perpaduan kopi dan susu yang creamy.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://i.imgur.com/f1OIgXc.jpg" alt="Es Kopi">
+        <h3>Es Kopi</h3>
+        <p>Kopi hitam bercampur dengan Es.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-duo">
+    <div class="info-box">
+      <h2>Lokasi</h2>
+      <a href="https://maps.app.goo.gl/UjDXUGqN2j63PkiG6" target="_blank">📍 Hutan Kota Malabar</a>
+      <p>Buka kalo mau buka pukul 19.00 - 00.00 WIB</p>
+    </div>
+    <div class="info-box">
+      <h2>Yuk, Ngopi di Taraya!</h2>
+      <p>Kunjungi Instagram kami untuk promo dan info terbaru</p>
+      <a href="https://www.instagram.com/taraya.koffie/" target="_blank">@taraya.koffie</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Taraya Koffie. All rights reserved.</p>
+  </footer>
+</body>
+</html>
