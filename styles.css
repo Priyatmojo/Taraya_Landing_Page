@@ -6,7 +6,9 @@ body {
   }
   
   header {
+    position: relative;
     background: url('gambar/4.png') no-repeat center center/cover;
+    background-color: #004aad;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,6 +16,15 @@ body {
     align-items: center;
     color: #fff;
     text-align: center;
+    z-index: 1;
+  }
+  
+  header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Overlay transparan */
+    z-index: -1;
   }
   
   header h1 {
