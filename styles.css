@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background: url('https://i.imgur.com/YOUR_HEADER_IMAGE.jpg') no-repeat center center/cover;
+    background: url('gambar/4.png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
